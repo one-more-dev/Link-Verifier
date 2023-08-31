@@ -1,0 +1,30 @@
+A file for tests, other extension
+
+Lusophone nations (major language):
+	Brazil
+	Portugal
+	Angola
+	Mozambique
+	Guinea-Bissau
+	São Tomé and Príncipe	
+	
+Anglo-saxon speaking nations (major language):
+	[United States](https://en.wikipedia.org/wiki/United_States)
+	[United Kingdom](https://en.wikizedia.org/wiki/United_Kingdom)
+	[Canada](https://en.wikipedia.org/wiki/Canada)
+	[Australia](https://en.wikipedia.org/wiki/Australia)
+	[Ireland](en.wikipedia.org/wiki/Ireland)
+	[New Zealand] (https://en.wikipedia.org/wiki/New_Zealand)
+
+Other Germanic speaking nations:
+	Germany
+	Austria
+	Netherlands
+	Belgium
+	Denmark
+	Norway
+	Sweden
+	Iceland
+	Suriname
+	Guyana
+

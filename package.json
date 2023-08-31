@@ -1,20 +1,32 @@
 {
-  "name": "2708-node-lib-md",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "md-link-verifier",
+  "version": "1.0.1",
+  "description": "Check the status of links within markdown (md) a file",
+  "main": "cli.js",
+  "bin":{
+    "<md-link-verifier>":"./cli.js"
+  },
+  "type":"module",
+  "preferGlobal":true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cli":"node ./src/cli.js",
+    "dironly":"node ./src/cli.js ./model_files",
+    "lista": "node ./src/cli.js ./model_files/listas.txt",
+    "lista-valida": "node ./src/cli.js ./model_files/listas.txt valida",
+    "texto": "node ./src/cli.js ./model_files/texto.md"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+    "url": ""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["markdown","url","link"],
+  "author": "onemoredev <akim.onemoredev@gmail.com> (https://onemoredev.online)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+    "email": "akim.onemoredev@gmail.com"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme"
+  "homepage": "onemoredev.online/more.html",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
 }

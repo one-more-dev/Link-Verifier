@@ -10,7 +10,7 @@
   "preferGlobal":true,
   "scripts": {
     "cli":"node ./src/cli.js",
-    "dironly":"node ./src/cli.js ./model_files",
+    "dir":"node ./src/cli.js ./model_files",
     "lista": "node ./src/cli.js ./model_files/listas.txt",
     "lista-valida": "node ./src/cli.js ./model_files/listas.txt valida",
     "texto": "node ./src/cli.js ./model_files/texto.md"
